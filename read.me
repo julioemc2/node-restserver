@@ -41,3 +41,10 @@ npm i bcryptjs
 //validador
 npm i express-validator
 
+
+// Crear variables de entorno en heroku
+
+heroku config //veo si hay variables
+heroku config:set MONGODB_CNN="mongodb+srv://julioemc3:43416635546@clusternodeserver.y9okq.mongodb.net/CafeBD"
+
+heroku config:unset MONGODB_CNN //si quiero quitar esa variable
